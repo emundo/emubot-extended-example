@@ -1,0 +1,39 @@
+{
+    "name": "emubot-advanced-setup",
+    "version": "0.1.0",
+    "description": "Middleware for bots for different messengers and NLU services",
+    "keywords": [
+        "bot",
+        "chatbot",
+        "bot framework",
+        "facebook",
+        "dialogflow",
+        "emubot"
+    ],
+    "license": "MIT",
+    "dependencies": {
+        "@emundo/emubot": "1.0.0",
+        "moment": "2.24.0",
+        "moment-timezone": "0.5.25",
+        "pg-promise": "8.7.2",
+        "typeorm": "0.2.18",
+        "typescript": "3.7.4",
+        "winston": "3.2.1"
+    },
+    "scripts": {
+        "tsc": "tsc",
+        "start": "node dist/main.js",
+        "lint": "eslint 'src/**/*.ts'; exit 0",
+        "prettier": "prettier --config .prettierrc.json --ignore-path .prettierignore --write '{src}/**/*.ts'"
+    },
+    "devDependencies": {
+        "@types/moment": "2.13.0",
+        "@types/moment-timezone": "0.5.12",
+        "@typescript-eslint/eslint-plugin": "2.16.0",
+        "@typescript-eslint/parser": "2.16.0",
+        "eslint": "6.8.0",
+        "eslint-config-prettier": "6.9.0",
+        "eslint-plugin-prettier": "3.1.2",
+        "prettier": "1.18.2"
+    }
+}

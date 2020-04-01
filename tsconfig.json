@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "newLine": "LF",
+    "outDir": "dist/",
+    "removeComments": true,
+    "allowJs": true,
+    "target": "es2016",
+    "strict": true,
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "allowUnusedLabels": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true, // https://github.com/howdyai/botkit/issues/1068 && https://stackoverflow.com/questions/38656955/allow-implicit-any-only-for-definition-files,
+    "strictNullChecks": true
+  },
+  "include": ["src/**/*"]
+}
