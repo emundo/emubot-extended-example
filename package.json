@@ -16,7 +16,7 @@
         "moment": "2.24.0",
         "moment-timezone": "0.5.25",
         "pg-promise": "8.7.2",
-        "typeorm": "0.2.18",
+        "typeorm": "0.2.25",
         "typescript": "3.7.4",
         "winston": "3.2.1"
     },
