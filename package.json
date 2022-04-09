@@ -13,7 +13,7 @@
     "license": "MIT",
     "dependencies": {
         "@emundo/emubot": "1.0.0",
-        "moment": "2.24.0",
+        "moment": "2.29.2",
         "moment-timezone": "0.5.25",
         "pg-promise": "8.7.2",
         "typeorm": "0.2.18",
